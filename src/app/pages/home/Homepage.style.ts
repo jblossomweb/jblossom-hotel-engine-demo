@@ -30,6 +30,6 @@ export const CardList = styled.div`
     animation: ${fadeIn} ease 0.5s;
     margin-bottom: ${rem(8)};
     display: ${({ loadingData }: { loadingData?: boolean }) =>
-      loadingData ? 'none' : 'block'};
+    loadingData ? 'none' : 'block'};
   }
 `;

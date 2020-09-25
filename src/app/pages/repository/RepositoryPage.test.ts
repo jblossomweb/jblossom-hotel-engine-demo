@@ -22,23 +22,23 @@ describe('pages/repository', () => {
   describe('plumbing', () => {
     Object.keys(mountedStories).forEach((key) => {
       const story = mountedStories[key];
-      const { loading, repo }: Props = story.props;
+      const { repo }: Props = story.props;
       if (repo) {
         describe(`${key} story`, () => {
           beforeEach(jest.clearAllMocks);
 
-          it(`mounts RepoDetails`, () => {
+          it('mounts RepoDetails', () => {
             const { repoDetails } = story.elements;
             expect(repoDetails.length).toEqual(1);
           });
 
-          it(`passes repo to RepoDetails`, () => {
+          it('passes repo to RepoDetails', () => {
             const { repoDetails } = story.elements;
-            const { repo } = repoDetails.props();
-            expect(repo).toEqual(story.props.repo);
+            const repoProp = repoDetails.prop('repo');
+            expect(repoProp).toEqual(story.props.repo);
           });
 
-          it(`passes refresh to RepoDetails`, () => {
+          it('passes refresh to RepoDetails', () => {
             const { repoDetails } = story.elements;
             const { refresh } = repoDetails.props();
             expect(refresh).toEqual(story.props.refresh);
@@ -48,7 +48,7 @@ describe('pages/repository', () => {
         describe(`${key} story`, () => {
           beforeEach(jest.clearAllMocks);
 
-          it(`does not mount RepoDetails`, () => {
+          it('does not mount RepoDetails', () => {
             const { repoDetails } = story.elements;
             expect(repoDetails.length).toEqual(0);
           });

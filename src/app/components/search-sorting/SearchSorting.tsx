@@ -39,12 +39,12 @@ const SearchSorting: React.FC<Props> = ({
       <Select.Option value={0} selected={!sort} default>
         Best Match
       </Select.Option>
-      <Select.Option value={'stars'}>Stars</Select.Option>
-      <Select.Option value={'forks'}>Forks</Select.Option>
-      <Select.Option value={'help-wanted-issues'}>
+      <Select.Option value="stars">Stars</Select.Option>
+      <Select.Option value="forks">Forks</Select.Option>
+      <Select.Option value="help-wanted-issues">
         Help Wanted Issues
       </Select.Option>
-      <Select.Option value={'updated'}>Recently Updated</Select.Option>
+      <Select.Option value="updated">Recently Updated</Select.Option>
     </Select>
 
     {sort ? (
@@ -62,8 +62,8 @@ const SearchSorting: React.FC<Props> = ({
           setSorting(sort, value as SearchRequest['order']);
         }}
       >
-        <Select.Option value={'asc'}>ASC</Select.Option>
-        <Select.Option value={'desc'}>DESC</Select.Option>
+        <Select.Option value="asc">ASC</Select.Option>
+        <Select.Option value="desc">DESC</Select.Option>
       </Select>
     ) : null}
   </Style.Wrapper>

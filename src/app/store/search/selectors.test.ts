@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import setWith from 'lodash.setwith';
 import cloneDeep from 'lodash.clonedeep';
 import mockPage from '../../__mocks__/github-search-repositories.json';
@@ -125,8 +126,6 @@ describe('store/search/selectors', () => {
   });
 
   describe('selectFilteredLanguages', () => {
-    const path = [rootPath, ...paths.request()];
-
     it('should select array of filtered language values', () => {
       const state = setupState(paths.request(), {
         ...mockRequest,
@@ -155,7 +154,7 @@ describe('store/search/selectors', () => {
       });
     });
 
-    it(`should select false when loading is undefined`, () => {
+    it('should select false when loading is undefined', () => {
       const state = setupState(paths.loading(), undefined);
       const selected = selectors.selectLoading(state);
       expect(selected).toEqual(false);
@@ -163,14 +162,14 @@ describe('store/search/selectors', () => {
   });
 
   describe('selectError', () => {
-    it(`should select error if defined`, () => {
+    it('should select error if defined', () => {
       const error = cloneDeep(new Error('uh oh'));
       const state = setupState(paths.error(), error);
       const selected = selectors.selectError(state);
       expect(selected).toEqual(error);
     });
 
-    it(`should select undefined when error is undefined`, () => {
+    it('should select undefined when error is undefined', () => {
       const state = setupState(paths.error(), undefined);
       const selected = selectors.selectError(state);
       expect(selected).toEqual(undefined);

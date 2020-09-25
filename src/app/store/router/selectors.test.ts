@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import setWith from 'lodash.setwith';
 import cloneDeep from 'lodash.clonedeep';
 import { randomString } from '../../../core/utils/test-utils';

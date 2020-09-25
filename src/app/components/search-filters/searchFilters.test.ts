@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Tag, Select } from 'antd';
 import storyMounter from '../../../core/utils/story-mounter';
 import snapshotTests from '../../../core/utils/story-snapshot-tests';
@@ -93,7 +94,7 @@ describe('components/search-filters', () => {
             beforeEach(() => {
               jest.clearAllMocks();
             });
-            it(`does not call props.addFilteredLanguage`, () => {
+            it('does not call props.addFilteredLanguage', () => {
               const { select } = story.elements;
               const { onChange }: any = select.props();
               const { addFilteredLanguage } = mockActions;
@@ -115,7 +116,7 @@ describe('components/search-filters', () => {
             beforeEach(() => {
               jest.clearAllMocks();
             });
-            it(`calls props.addFilteredLanguage for each new language`, () => {
+            it('calls props.addFilteredLanguage for each new language', () => {
               const { select } = story.elements;
               const { onChange }: any = select.props();
               const { addFilteredLanguage } = mockActions;

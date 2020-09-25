@@ -23,8 +23,7 @@ const SearchPaging: React.FC<Props> = ({
     total={totalItems}
     pageSize={pageSize}
     showTotal={(total: number) =>
-      `Found ${total.toLocaleString()} repositories`
-    }
+      `Found ${total.toLocaleString()} repositories`}
     onChange={setPaging}
   />
 );

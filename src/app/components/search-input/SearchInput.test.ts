@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { act } from 'react-dom/test-utils';
 import { Input } from 'antd';
 import storyMounter from '../../../core/utils/story-mounter';

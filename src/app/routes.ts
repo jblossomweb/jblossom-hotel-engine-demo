@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Redirect, Route } from '../core/types';
 
 import NotFoundPage from './pages/not-found';

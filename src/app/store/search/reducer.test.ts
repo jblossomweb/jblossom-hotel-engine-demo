@@ -49,7 +49,7 @@ describe('store/search/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call fetchSearch reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['FETCH_SEARCH'];
+      const action = mockActions.FETCH_SEARCH;
       expect(reducerSpies.fetchSearch).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.fetchSearch).toHaveBeenCalled();
@@ -60,7 +60,7 @@ describe('store/search/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call fetchSearchSuccess reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['FETCH_SEARCH_SUCCESS'];
+      const action = mockActions.FETCH_SEARCH_SUCCESS;
       expect(reducerSpies.fetchSearchSuccess).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.fetchSearchSuccess).toHaveBeenCalled();
@@ -71,7 +71,7 @@ describe('store/search/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call fetchSearchError reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['FETCH_SEARCH_ERROR'];
+      const action = mockActions.FETCH_SEARCH_ERROR;
       expect(reducerSpies.fetchSearchError).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.fetchSearchError).toHaveBeenCalled();
@@ -82,7 +82,7 @@ describe('store/search/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call clearError reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['CLEAR_ERROR'];
+      const action = mockActions.CLEAR_ERROR;
       expect(reducerSpies.clearError).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.clearError).toHaveBeenCalled();
@@ -93,7 +93,7 @@ describe('store/search/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call clearResults reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['CLEAR_RESULTS'];
+      const action = mockActions.CLEAR_RESULTS;
       expect(reducerSpies.clearResults).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.clearResults).toHaveBeenCalled();

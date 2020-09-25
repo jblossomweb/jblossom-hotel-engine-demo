@@ -1,9 +1,7 @@
 import React from 'react';
 import { Card, Button, Avatar } from 'antd';
-import { SyncOutlined } from '@ant-design/icons';
-import JSONPretty from 'react-json-pretty';
-import monokai from 'react-json-pretty/dist/monikai';
 import {
+  SyncOutlined,
   GithubOutlined,
   StarOutlined,
   CodeOutlined,
@@ -11,6 +9,8 @@ import {
   GlobalOutlined,
   LeftCircleFilled,
 } from '@ant-design/icons';
+import JSONPretty from 'react-json-pretty';
+import monokai from 'react-json-pretty/dist/monikai';
 
 import { Repository } from '../../types';
 import { FlexRowLeft } from '../../shared.style';
@@ -23,7 +23,7 @@ export interface Props {
 const RepoDetails: React.FC<Props> = ({ repo, refresh }) => (
   <Card>
     <h3>
-      <Avatar size={'large'} src={repo.owner.avatar_url} />
+      <Avatar size="large" src={repo.owner.avatar_url} />
       &nbsp;
       {repo.full_name}
     </h3>
@@ -52,14 +52,14 @@ const RepoDetails: React.FC<Props> = ({ repo, refresh }) => (
       </p>
     </FlexRowLeft>
     <FlexRowLeft style={{ marginBottom: 16 }}>
-      <Button href={'/home'} icon={<LeftCircleFilled />}>
+      <Button href="/home" icon={<LeftCircleFilled />}>
         Back
       </Button>
       {repo.homepage ? (
         <Button
           type="primary"
           href={repo.homepage}
-          target={'_blank'}
+          target="_blank"
           icon={<GlobalOutlined />}
         >
           Homepage
@@ -68,7 +68,7 @@ const RepoDetails: React.FC<Props> = ({ repo, refresh }) => (
       <Button
         type="primary"
         href={repo.html_url}
-        target={'_blank'}
+        target="_blank"
         icon={<GithubOutlined />}
       >
         View on GitHub

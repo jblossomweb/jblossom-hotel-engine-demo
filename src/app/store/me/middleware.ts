@@ -1,3 +1,9 @@
+/* eslint-disable import/no-cycle */
+/*
+ * Note: I disabled eslint's circular dependency detection here.
+ * Webpack appears to resolve it at build time.
+ * In the future, I may consider changing this pattern.
+ */
 import { Dispatch, AnyAction } from 'redux';
 import { User } from '../../types';
 import { requestTimeout } from '../../utils';

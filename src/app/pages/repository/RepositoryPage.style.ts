@@ -21,6 +21,6 @@ export const CardWrapper = styled.div`
     margin-bottom: ${rem(8)};
     animation: ${fadeIn} ease 0.5s;
     display: ${({ loadingData }: { loadingData?: boolean }) =>
-      loadingData ? 'none' : 'block'};
+    loadingData ? 'none' : 'block'};
   }
 `;

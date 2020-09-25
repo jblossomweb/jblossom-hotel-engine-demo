@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import './enzyme-adapter';
 import { shallow, mount, ReactWrapper } from 'enzyme';
 import { Stories, mockKnobs } from './story-builder';

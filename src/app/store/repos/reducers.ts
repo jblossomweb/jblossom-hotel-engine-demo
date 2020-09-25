@@ -9,8 +9,8 @@ import paths from './paths';
  * FETCH_REPOSITORY
  */
 export const fetchRepository: Reducer<
-  ReposState,
-  ReposActions['FETCH_REPOSITORY']
+ReposState,
+ReposActions['FETCH_REPOSITORY']
 > = (state = initialState) => {
   const newState = cloneDeep(state);
   setWith(newState, paths.loading(), true);
@@ -21,8 +21,8 @@ export const fetchRepository: Reducer<
  * FETCH_REPOSITORY_SUCCESS
  */
 export const fetchRepositorySuccess: Reducer<
-  ReposState,
-  ReposActions['FETCH_REPOSITORY_SUCCESS']
+ReposState,
+ReposActions['FETCH_REPOSITORY_SUCCESS']
 > = (state = initialState, { payload: { repo } }) => {
   const newState = cloneDeep(state);
   setWith(newState, paths.repo(repo.full_name), repo);
@@ -35,8 +35,8 @@ export const fetchRepositorySuccess: Reducer<
  * FETCH_REPOSITORY_ERROR
  */
 export const fetchRepositoryError: Reducer<
-  ReposState,
-  ReposActions['FETCH_REPOSITORY_ERROR']
+ReposState,
+ReposActions['FETCH_REPOSITORY_ERROR']
 > = (state = initialState, { payload: { error } }) => {
   const newState = cloneDeep(state);
   setWith(newState, paths.error(), error);
@@ -48,8 +48,8 @@ export const fetchRepositoryError: Reducer<
  * CLEAR_REPOSITORY_ERROR
  */
 export const clearRepositoryError: Reducer<
-  ReposState,
-  ReposActions['CLEAR_REPOSITORY_ERROR']
+ReposState,
+ReposActions['CLEAR_REPOSITORY_ERROR']
 > = (state = initialState) => {
   const newState = cloneDeep(state);
   setWith(newState, paths.error(), undefined);

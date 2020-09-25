@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import renderer from 'react-test-renderer';
 import { Story, Stories, mockKnobs } from './story-builder';
 

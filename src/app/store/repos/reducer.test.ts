@@ -39,7 +39,7 @@ describe('store/search/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call fetchRepository reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['FETCH_REPOSITORY'];
+      const action = mockActions.FETCH_REPOSITORY;
       expect(reducerSpies.fetchRepository).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.fetchRepository).toHaveBeenCalled();
@@ -50,7 +50,7 @@ describe('store/search/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call fetchRepositorySuccess reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['FETCH_REPOSITORY_SUCCESS'];
+      const action = mockActions.FETCH_REPOSITORY_SUCCESS;
       expect(reducerSpies.fetchRepositorySuccess).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.fetchRepositorySuccess).toHaveBeenCalled();
@@ -61,7 +61,7 @@ describe('store/search/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call fetchRepositoryError reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['FETCH_REPOSITORY_ERROR'];
+      const action = mockActions.FETCH_REPOSITORY_ERROR;
       expect(reducerSpies.fetchRepositoryError).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.fetchRepositoryError).toHaveBeenCalled();
@@ -72,7 +72,7 @@ describe('store/search/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call clearRepositoryError reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['CLEAR_REPOSITORY_ERROR'];
+      const action = mockActions.CLEAR_REPOSITORY_ERROR;
       expect(reducerSpies.clearRepositoryError).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.clearRepositoryError).toHaveBeenCalled();

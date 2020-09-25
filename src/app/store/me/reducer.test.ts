@@ -39,7 +39,7 @@ describe('store/me/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call fetchMeUser reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['FETCH_ME_USER'];
+      const action = mockActions.FETCH_ME_USER;
       expect(reducerSpies.fetchMeUser).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.fetchMeUser).toHaveBeenCalled();
@@ -50,7 +50,7 @@ describe('store/me/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call fetchMeUserSuccess reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['FETCH_ME_USER_SUCCESS'];
+      const action = mockActions.FETCH_ME_USER_SUCCESS;
       expect(reducerSpies.fetchMeUserSuccess).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.fetchMeUserSuccess).toHaveBeenCalled();
@@ -61,7 +61,7 @@ describe('store/me/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call fetchMeUserError reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['FETCH_ME_USER_ERROR'];
+      const action = mockActions.FETCH_ME_USER_ERROR;
       expect(reducerSpies.fetchMeUserError).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.fetchMeUserError).toHaveBeenCalled();
@@ -72,7 +72,7 @@ describe('store/me/reducer', () => {
     beforeEach(jest.clearAllMocks);
     it('should call clearError reducer', () => {
       const state = cloneDeep(initialState);
-      const action = mockActions['CLEAR_ERROR'];
+      const action = mockActions.CLEAR_ERROR;
       expect(reducerSpies.clearError).not.toHaveBeenCalled();
       searchReducer(state, action);
       expect(reducerSpies.clearError).toHaveBeenCalled();

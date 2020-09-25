@@ -59,7 +59,7 @@ describe('components/search-sorting', () => {
                         expect(args[1]).toEqual(order);
                       });
                     } else {
-                      it(`should pass 'desc' as second arg to setSorting`, () => {
+                      it('should pass \'desc\' as second arg to setSorting', () => {
                         expect(mockActions.setSorting).not.toHaveBeenCalled();
                         onChange(value);
                         expect(mockActions.setSorting).toHaveBeenCalled();

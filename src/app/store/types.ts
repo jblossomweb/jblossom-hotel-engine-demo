@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Action } from 'redux';
 import { RouterState } from './router/types';
 import { MeState } from './me/types';

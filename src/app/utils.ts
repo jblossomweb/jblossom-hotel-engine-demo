@@ -1,6 +1,6 @@
 export const requestTimeout = (ms: number) =>
   new Promise((_resolve, reject) => {
-    let wait = setTimeout(() => {
+    const wait = setTimeout(() => {
       clearTimeout(wait);
       reject(new Error('Request Timeout'));
     }, ms);

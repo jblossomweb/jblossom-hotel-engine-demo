@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from 'react';
 import {
   storyBuilder,
@@ -12,7 +13,7 @@ import RepoDetails, { Props } from './RepoDetails';
 const sampleProps: Props = {
   repo: mockRepo as Repository,
   refresh: () => {
-    console.log(`refresh()`);
+    console.log('refresh()');
   },
 };
 

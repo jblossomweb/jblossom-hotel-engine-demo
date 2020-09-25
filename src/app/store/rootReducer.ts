@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { combineReducers, Reducer, CombinedState } from 'redux';
 import { connectRouter } from 'connected-react-router';
 import { AppState } from './types';

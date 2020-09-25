@@ -9,8 +9,8 @@ import paths from './paths';
  * FETCH_SEARCH
  */
 export const fetchSearch: Reducer<
-  SearchState,
-  SearchActions['FETCH_SEARCH']
+SearchState,
+SearchActions['FETCH_SEARCH']
 > = (state = initialState, { payload: { request } }) => {
   const newState = cloneDeep(state);
   setWith(newState, paths.loading(), true);
@@ -22,8 +22,8 @@ export const fetchSearch: Reducer<
  * FETCH_SEARCH_SUCCESS
  */
 export const fetchSearchSuccess: Reducer<
-  SearchState,
-  SearchActions['FETCH_SEARCH_SUCCESS']
+SearchState,
+SearchActions['FETCH_SEARCH_SUCCESS']
 > = (state = initialState, { payload: { page, request } }) => {
   const newState = cloneDeep(state);
   setWith(newState, paths.loading(), false);
@@ -38,8 +38,8 @@ export const fetchSearchSuccess: Reducer<
  * FETCH_SEARCH_ERROR
  */
 export const fetchSearchError: Reducer<
-  SearchState,
-  SearchActions['FETCH_SEARCH_ERROR']
+SearchState,
+SearchActions['FETCH_SEARCH_ERROR']
 > = (state = initialState, { payload: { error } }) => {
   const newState = cloneDeep(state);
   setWith(newState, paths.error(), error);
@@ -62,8 +62,8 @@ export const clearError: Reducer<SearchState, SearchActions['CLEAR_ERROR']> = (
  * CLEAR_RESULTS
  */
 export const clearResults: Reducer<
-  SearchState,
-  SearchActions['CLEAR_RESULTS']
+SearchState,
+SearchActions['CLEAR_RESULTS']
 > = (state = initialState) => {
   const newState = cloneDeep(state);
   setWith(newState, paths.page(), undefined);

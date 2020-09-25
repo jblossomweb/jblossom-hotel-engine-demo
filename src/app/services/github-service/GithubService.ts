@@ -10,7 +10,9 @@ import {
 
 class GithubService implements GithubServiceInterface {
   private base: string;
+
   private token: string;
+
   private axios: AxiosInstance;
 
   constructor(base: string, token: string, axios: AxiosInstance) {
@@ -30,7 +32,7 @@ class GithubService implements GithubServiceInterface {
     });
 
   public getCurrentUser = async () => {
-    const endpoint = `user`;
+    const endpoint = 'user';
     try {
       const { data }: UserResponse = await this.getRequest(endpoint);
       return data;
@@ -50,7 +52,7 @@ class GithubService implements GithubServiceInterface {
   };
 
   public searchRepositories = async (params: SearchRequest) => {
-    const endpoint = `search/repositories`;
+    const endpoint = 'search/repositories';
     try {
       const { data }: SearchResponse = await this.getRequest(endpoint, params);
       return data;

@@ -1,13 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { AxiosInstance } from 'axios';
 import { Dispatch, AnyAction } from 'redux';
 import { Repository } from '../../types';
-import {
-  GithubService,
-  SearchRequest,
-  Page,
-} from '../../services/github-service';
-import mockRequest from '../../services/github-service/__mocks__/search_request.json';
-import mockPage from '../../__mocks__/github-search-repositories.json';
+import { GithubService } from '../../services/github-service';
 import mockRepo from '../../__mocks__/github-repository.json';
 import * as actions from './actions';
 import * as middleware from './middleware';
@@ -25,7 +20,6 @@ const spyMiddleware: any = {
 
 describe('store/search/actions', () => {
   describe('fetchRepository', () => {
-    const request = mockRequest as SearchRequest;
     const serviced = actions.fetchRepository(mockService);
     const creator = serviced(mockDispatch);
 
@@ -33,19 +27,19 @@ describe('store/search/actions', () => {
       jest.clearAllMocks();
     });
 
-    it(`should call fetchRepository middleware`, () => {
+    it('should call fetchRepository middleware', () => {
       expect(spyMiddleware.fetchRepository).not.toHaveBeenCalled();
       creator('foo');
       expect(spyMiddleware.fetchRepository).toHaveBeenCalled();
     });
 
-    it(`should inject service into middleware`, () => {
+    it('should inject service into middleware', () => {
       expect(spyMiddleware.fetchRepository).not.toHaveBeenCalled();
       creator('foo');
       expect(spyMiddleware.fetchRepository).toHaveBeenCalledWith(mockService);
     });
 
-    it(`should return FETCH_REPOSITORY action type`, () => {
+    it('should return FETCH_REPOSITORY action type', () => {
       const action = creator('foo');
       expect(action.type).toEqual('FETCH_REPOSITORY');
     });
@@ -55,11 +49,11 @@ describe('store/search/actions', () => {
     const repo = mockRepo as Repository;
     const action = actions.fetchRepositorySuccess(mockRepo);
 
-    it(`should return FETCH_REPOSITORY_SUCCESS action type`, () => {
+    it('should return FETCH_REPOSITORY_SUCCESS action type', () => {
       expect(action.type).toEqual('FETCH_REPOSITORY_SUCCESS');
     });
 
-    it(`should return repo in payload`, () => {
+    it('should return repo in payload', () => {
       expect(action.payload.repo).toEqual(repo);
     });
   });
@@ -68,11 +62,11 @@ describe('store/search/actions', () => {
     const error = new Error('uh oh');
     const action = actions.fetchRepositoryError(error);
 
-    it(`should return FETCH_REPOSITORY_ERROR action type`, () => {
+    it('should return FETCH_REPOSITORY_ERROR action type', () => {
       expect(action.type).toEqual('FETCH_REPOSITORY_ERROR');
     });
 
-    it(`should return error in payload`, () => {
+    it('should return error in payload', () => {
       expect(action.payload.error).toEqual(error);
     });
   });
@@ -80,7 +74,7 @@ describe('store/search/actions', () => {
   describe('clearError', () => {
     const action = actions.clearError();
 
-    it(`should return CLEAR_REPOSITORY_ERROR action type`, () => {
+    it('should return CLEAR_REPOSITORY_ERROR action type', () => {
       expect(action.type).toEqual('CLEAR_REPOSITORY_ERROR');
     });
   });

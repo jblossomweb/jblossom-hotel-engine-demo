@@ -20,8 +20,8 @@ export const fetchMeUser: Reducer<MeState, MeActions['FETCH_ME_USER']> = (
  * FETCH_ME_USER_SUCCESS
  */
 export const fetchMeUserSuccess: Reducer<
-  MeState,
-  MeActions['FETCH_ME_USER_SUCCESS']
+MeState,
+MeActions['FETCH_ME_USER_SUCCESS']
 > = (state = initialState, { payload: { user } }) => {
   const newState = cloneDeep(state);
   setWith(newState, paths.user(), user);
@@ -34,8 +34,8 @@ export const fetchMeUserSuccess: Reducer<
  * FETCH_ME_USER_ERROR
  */
 export const fetchMeUserError: Reducer<
-  MeState,
-  MeActions['FETCH_ME_USER_ERROR']
+MeState,
+MeActions['FETCH_ME_USER_ERROR']
 > = (state = initialState, { payload: { error } }) => {
   const newState = cloneDeep(state);
   setWith(newState, paths.error(), error);

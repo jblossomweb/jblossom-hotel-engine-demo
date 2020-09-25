@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 import { useDispatch } from 'react-redux';
 
 import GithubService, { SearchRequest } from '../../services/github-service';
-import * as searchActions from '../../store/search/actions';
+import * as searchActions from './actions';
 import * as utils from '../../utils';
 
 /*

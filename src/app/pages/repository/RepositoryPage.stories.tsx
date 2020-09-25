@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from 'react';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
@@ -13,7 +14,7 @@ import RepositoryPage, { Props } from './RepositoryPage';
 const sampleProps: Props = {
   repo: mockRepo as Repository,
   refresh: () => {
-    console.log(`refresh()`);
+    console.log('refresh()');
   },
 };
 

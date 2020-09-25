@@ -135,7 +135,7 @@ describe('services/github-service', () => {
     });
 
     it('makes a GET request to search/repositories endpoint', () => {
-      const endpoint = `search/repositories`;
+      const endpoint = 'search/repositories';
       const spy = jest.spyOn(mockAxios, 'get');
       expect(spy).not.toHaveBeenCalled();
       mockService

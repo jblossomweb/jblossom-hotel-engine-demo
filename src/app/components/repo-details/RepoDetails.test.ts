@@ -26,7 +26,7 @@ describe('components/repo-details', () => {
           beforeEach(() => {
             jest.clearAllMocks();
           });
-          it(`calls props.refresh()`, () => {
+          it('calls props.refresh()', () => {
             const story = mountedStories[key];
             const { refreshIcon } = story.elements;
             const { refresh } = mockActions;
