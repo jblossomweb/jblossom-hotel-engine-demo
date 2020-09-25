@@ -28,22 +28,30 @@ export const mockKnobs: KnobsInterface = {
   select: (name: string, options: any, val: any) => val,
 };
 
-export type Story = (...args: any[]) => JSX.Element;
+export type Story = (...args: any[]) => React.ReactElement;
 
 export interface Stories {
   [key: string]: Story;
 }
 
-export const storyBuilder = (stories: Stories, storyPath: string) => {
-  const builtStories = storiesOf(storyPath, module);
-  builtStories.addDecorator(withKnobs as any);
-
+export const storyWrapper = (stories: Stories) => {
+  const wrappedStories: Stories = {};
   Object.keys(stories).forEach((key) => {
-    builtStories.add(key, () => (
+    wrappedStories[key] = () => (
       <>
         <Theme />
         <MemoryRouter>{stories[key](knobs)}</MemoryRouter>
       </>
-    ));
+    );
+  });
+  return wrappedStories;
+};
+
+export const storyBuilder = (stories: Stories, storyPath: string) => {
+  const wrappedStories: Stories = storyWrapper(stories);
+  const builtStories = storiesOf(storyPath, module);
+  builtStories.addDecorator(withKnobs as any);
+  Object.keys(wrappedStories).forEach((key) => {
+    builtStories.add(key, wrappedStories[key]);
   });
 };

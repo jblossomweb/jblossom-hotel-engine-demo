@@ -4,7 +4,6 @@ import {
   KnobsInterface,
   Stories,
 } from '../../../core/utils/story-builder';
-import palette from '../../palette';
 
 import GithubCorner, { Props } from './GithubCorner';
 
@@ -18,8 +17,8 @@ const story = (knobProps: Props) => (
 ) => (
   <GithubCorner
     href={knobs.text('href', props.href)}
-    fillColor={knobs.color('fillColor', props.fillColor || palette.BLUE!)}
-    textColor={knobs.color('textColor', props.textColor || palette.WHITE!)}
+    fillColor={knobs.color('fillColor', props.fillColor || '')}
+    textColor={knobs.color('textColor', props.textColor || '')}
   />
 );
 

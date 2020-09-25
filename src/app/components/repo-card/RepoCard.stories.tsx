@@ -38,6 +38,10 @@ export const stories: Stories = {
   sample: story({
     ...sampleProps,
   }),
+  'empty language': story({
+    ...sampleProps,
+    language: '',
+  }),
 };
 
 storyBuilder(stories, 'components/repo-card');

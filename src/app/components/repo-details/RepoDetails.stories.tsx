@@ -6,13 +6,11 @@ import {
 } from '../../../core/utils/story-builder';
 
 import { Repository } from '../../types';
-import mockPage from '../../__mocks__/github-search-repositories.json';
+import mockRepo from '../../__mocks__/github-repository.json';
 import RepoDetails, { Props } from './RepoDetails';
 
-const mockRepo = mockPage.items[0] as Repository;
-
 const sampleProps: Props = {
-  repo: mockRepo,
+  repo: mockRepo as Repository,
   refresh: () => {
     console.log(`refresh()`);
   },
@@ -28,10 +26,31 @@ const story = (knobProps: Props) => (
   />
 );
 
-export const stories: Stories = {
+export const makeStories: (injectActions?: Partial<Props>) => Stories = (
+  injectActions
+) => ({
   sample: story({
     ...sampleProps,
+    ...injectActions,
   }),
-};
+  'no homepage': story({
+    ...sampleProps,
+    ...injectActions,
+    repo: {
+      ...sampleProps.repo,
+      homepage: null,
+    },
+  }),
+  'empty language': story({
+    ...sampleProps,
+    ...injectActions,
+    repo: {
+      ...sampleProps.repo,
+      language: '',
+    },
+  }),
+});
+
+export const stories: Stories = makeStories();
 
 storyBuilder(stories, 'components/repo-details');

@@ -1,5 +1,6 @@
 import { Reducer } from 'redux';
 import setWith from 'lodash.setwith';
+import cloneDeep from 'lodash.clonedeep';
 import { SearchState, SearchActions } from './types';
 import initialState from './initialState';
 import paths from './paths';
@@ -11,7 +12,7 @@ export const fetchSearch: Reducer<
   SearchState,
   SearchActions['FETCH_SEARCH']
 > = (state = initialState, { payload: { request } }) => {
-  const newState = { ...state };
+  const newState = cloneDeep(state);
   setWith(newState, paths.loading(), true);
   setWith(newState, paths.request(), request);
   return newState;
@@ -24,11 +25,12 @@ export const fetchSearchSuccess: Reducer<
   SearchState,
   SearchActions['FETCH_SEARCH_SUCCESS']
 > = (state = initialState, { payload: { page, request } }) => {
-  const newState = { ...state };
-  setWith(newState, paths.page(), page);
-  setWith(newState, paths.request(), request);
-  setWith(newState, paths.error(), undefined);
+  const newState = cloneDeep(state);
   setWith(newState, paths.loading(), false);
+  setWith(newState, paths.request(), request);
+  setWith(newState, paths.page(), page);
+  setWith(newState, paths.error(), undefined);
+
   return newState;
 };
 
@@ -39,7 +41,7 @@ export const fetchSearchError: Reducer<
   SearchState,
   SearchActions['FETCH_SEARCH_ERROR']
 > = (state = initialState, { payload: { error } }) => {
-  const newState = { ...state };
+  const newState = cloneDeep(state);
   setWith(newState, paths.error(), error);
   setWith(newState, paths.loading(), false);
   return newState;
@@ -51,7 +53,7 @@ export const fetchSearchError: Reducer<
 export const clearError: Reducer<SearchState, SearchActions['CLEAR_ERROR']> = (
   state = initialState
 ) => {
-  const newState = { ...state };
+  const newState = cloneDeep(state);
   setWith(newState, paths.error(), undefined);
   return newState;
 };
@@ -63,7 +65,7 @@ export const clearResults: Reducer<
   SearchState,
   SearchActions['CLEAR_RESULTS']
 > = (state = initialState) => {
-  const newState = { ...state };
+  const newState = cloneDeep(state);
   setWith(newState, paths.page(), undefined);
   setWith(newState, paths.request(), initialState.request);
   return newState;

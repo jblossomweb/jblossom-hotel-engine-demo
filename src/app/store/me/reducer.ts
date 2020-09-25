@@ -1,7 +1,7 @@
 import { Reducer } from 'redux';
 import { AppAction } from '../types';
 import { MeState, MeActions } from './types';
-import initalState from './initialState';
+import initialState from './initialState';
 import * as reducers from './reducers';
 
 const meReducer: Reducer<MeState, AppAction> = (state, action) => {
@@ -24,7 +24,7 @@ const meReducer: Reducer<MeState, AppAction> = (state, action) => {
     case 'CLEAR_ERROR':
       return reducers.clearError(state, action as MeActions['CLEAR_ERROR']);
   }
-  return state || initalState;
+  return state || initialState;
 };
 
 export default meReducer;

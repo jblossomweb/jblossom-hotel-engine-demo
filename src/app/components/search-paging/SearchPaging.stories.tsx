@@ -28,14 +28,35 @@ const story = (knobProps: Props) => (
   />
 );
 
-export const stories: Stories = {
+export const makeStories: (injectActions?: Partial<Props>) => Stories = (
+  injectActions
+) => ({
   sample: story({
     ...sampleProps,
+    ...injectActions,
   }),
   loading: story({
     ...sampleProps,
+    ...injectActions,
     loading: true,
   }),
-};
+  'zero total items': story({
+    ...sampleProps,
+    ...injectActions,
+    totalItems: 0,
+  }),
+  '2nd page': story({
+    ...sampleProps,
+    ...injectActions,
+    pageNum: 2,
+  }),
+  'larger page size': story({
+    ...sampleProps,
+    ...injectActions,
+    pageSize: 100,
+  }),
+});
+
+export const stories: Stories = makeStories();
 
 storyBuilder(stories, 'components/search-paging');

@@ -15,7 +15,7 @@ import * as reposSelectors from '../../store/repos/selectors';
  * useErrorEffect
  */
 export const useErrorEffect = (
-  error: Error | ApiError,
+  error: Error | ApiError | undefined,
   closeError: () => void
 ) =>
   useEffect(() => {

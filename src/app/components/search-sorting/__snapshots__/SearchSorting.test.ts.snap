@@ -1,0 +1,2315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/search-sorting snapshots loading story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow ant-select-disabled"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-expanded={false}
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={true}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Best Match"
+      >
+        Best Match
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sample story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Best Match"
+      >
+        Best Match
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by forks asc story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Forks"
+      >
+        Forks
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="ASC"
+      >
+        ASC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-ascending"
+        className="anticon anticon-sort-ascending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-ascending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM416 702h-76V172c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v530h-76c-6.7 0-10.5 7.8-6.3 13l112 141.9a8 8 0 0012.6 0l112-141.9c4.1-5.2.4-13-6.3-13z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by forks desc story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Forks"
+      >
+        Forks
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="DESC"
+      >
+        DESC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-descending"
+        className="anticon anticon-sort-descending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-descending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM310.3 167.1a8 8 0 00-12.6 0L185.7 309c-4.2 5.3-.4 13 6.3 13h76v530c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V322h76c6.7 0 10.5-7.8 6.3-13l-112-141.9z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by forks, order is undefined (edge case) story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Forks"
+      >
+        Forks
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="DESC"
+      >
+        DESC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-ascending"
+        className="anticon anticon-sort-ascending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-ascending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM416 702h-76V172c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v530h-76c-6.7 0-10.5 7.8-6.3 13l112 141.9a8 8 0 0012.6 0l112-141.9c4.1-5.2.4-13-6.3-13z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by help-wanted-issues asc story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Help Wanted Issues"
+      >
+        Help Wanted Issues
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="ASC"
+      >
+        ASC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-ascending"
+        className="anticon anticon-sort-ascending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-ascending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM416 702h-76V172c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v530h-76c-6.7 0-10.5 7.8-6.3 13l112 141.9a8 8 0 0012.6 0l112-141.9c4.1-5.2.4-13-6.3-13z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by help-wanted-issues desc story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Help Wanted Issues"
+      >
+        Help Wanted Issues
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="DESC"
+      >
+        DESC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-descending"
+        className="anticon anticon-sort-descending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-descending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM310.3 167.1a8 8 0 00-12.6 0L185.7 309c-4.2 5.3-.4 13 6.3 13h76v530c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V322h76c6.7 0 10.5-7.8 6.3-13l-112-141.9z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by help-wanted-issues, order is undefined (edge case) story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Help Wanted Issues"
+      >
+        Help Wanted Issues
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="DESC"
+      >
+        DESC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-ascending"
+        className="anticon anticon-sort-ascending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-ascending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM416 702h-76V172c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v530h-76c-6.7 0-10.5 7.8-6.3 13l112 141.9a8 8 0 0012.6 0l112-141.9c4.1-5.2.4-13-6.3-13z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by stars asc story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Stars"
+      >
+        Stars
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="ASC"
+      >
+        ASC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-ascending"
+        className="anticon anticon-sort-ascending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-ascending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM416 702h-76V172c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v530h-76c-6.7 0-10.5 7.8-6.3 13l112 141.9a8 8 0 0012.6 0l112-141.9c4.1-5.2.4-13-6.3-13z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by stars desc story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Stars"
+      >
+        Stars
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="DESC"
+      >
+        DESC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-descending"
+        className="anticon anticon-sort-descending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-descending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM310.3 167.1a8 8 0 00-12.6 0L185.7 309c-4.2 5.3-.4 13 6.3 13h76v530c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V322h76c6.7 0 10.5-7.8 6.3-13l-112-141.9z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by stars, order is undefined (edge case) story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Stars"
+      >
+        Stars
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="DESC"
+      >
+        DESC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-ascending"
+        className="anticon anticon-sort-ascending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-ascending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM416 702h-76V172c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v530h-76c-6.7 0-10.5 7.8-6.3 13l112 141.9a8 8 0 0012.6 0l112-141.9c4.1-5.2.4-13-6.3-13z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by updated asc story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Recently Updated"
+      >
+        Recently Updated
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="ASC"
+      >
+        ASC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-ascending"
+        className="anticon anticon-sort-ascending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-ascending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM416 702h-76V172c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v530h-76c-6.7 0-10.5 7.8-6.3 13l112 141.9a8 8 0 0012.6 0l112-141.9c4.1-5.2.4-13-6.3-13z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by updated desc story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Recently Updated"
+      >
+        Recently Updated
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+          aria-autocomplete="list"
+          aria-controls="rc_select_TEST_OR_SSR_list"
+          aria-haspopup="listbox"
+          aria-owns="rc_select_TEST_OR_SSR_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          id="rc_select_TEST_OR_SSR"
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="DESC"
+      >
+        DESC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-descending"
+        className="anticon anticon-sort-descending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-descending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM310.3 167.1a8 8 0 00-12.6 0L185.7 309c-4.2 5.3-.4 13 6.3 13h76v530c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V322h76c6.7 0 10.5-7.8 6.3-13l-112-141.9z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/search-sorting snapshots sort by updated, order is undefined (edge case) story matches snapshot 1`] = `
+<div
+  className="sc-AxjAm StDqN"
+>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "width": 180,
+      }
+    }
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="Recently Updated"
+      >
+        Recently Updated
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="down"
+        className="anticon anticon-down ant-select-suffix"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="down"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div
+    className="ant-select ant-select-single ant-select-show-arrow"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+  >
+    <div
+      className="ant-select-selector"
+      onMouseDown={[Function]}
+    >
+      <span
+        className="ant-select-selection-search"
+      >
+        <input
+          aria-activedescendant="undefined_list_0"
+          aria-autocomplete="list"
+          aria-controls="undefined_list"
+          aria-haspopup="listbox"
+          aria-owns="undefined_list"
+          autoComplete="off"
+          className="ant-select-selection-search-input"
+          disabled={false}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          readOnly={true}
+          role="combobox"
+          style={
+            Object {
+              "opacity": 0,
+            }
+          }
+          unselectable="on"
+          value=""
+        />
+      </span>
+      <span
+        className="ant-select-selection-item"
+        title="DESC"
+      >
+        DESC
+      </span>
+    </div>
+    <span
+      aria-hidden={true}
+      className="ant-select-arrow"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "WebkitUserSelect": "none",
+          "userSelect": "none",
+        }
+      }
+      unselectable="on"
+    >
+      <span
+        aria-label="sort-ascending"
+        className="anticon anticon-sort-ascending"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className=""
+          data-icon="sort-ascending"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M839.6 433.8L749 150.5a9.24 9.24 0 00-8.9-6.5h-77.4c-4.1 0-7.6 2.6-8.9 6.5l-91.3 283.3c-.3.9-.5 1.9-.5 2.9 0 5.1 4.2 9.3 9.3 9.3h56.4c4.2 0 7.8-2.8 9-6.8l17.5-61.6h89l17.3 61.5c1.1 4 4.8 6.8 9 6.8h61.2c1 0 1.9-.1 2.8-.4 2.4-.8 4.3-2.4 5.5-4.6 1.1-2.2 1.3-4.7.6-7.1zM663.3 325.5l32.8-116.9h6.3l32.1 116.9h-71.2zm143.5 492.9H677.2v-.4l132.6-188.9c1.1-1.6 1.7-3.4 1.7-5.4v-36.4c0-5.1-4.2-9.3-9.3-9.3h-204c-5.1 0-9.3 4.2-9.3 9.3v43c0 5.1 4.2 9.3 9.3 9.3h122.6v.4L587.7 828.9a9.35 9.35 0 00-1.7 5.4v36.4c0 5.1 4.2 9.3 9.3 9.3h211.4c5.1 0 9.3-4.2 9.3-9.3v-43a9.2 9.2 0 00-9.2-9.3zM416 702h-76V172c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v530h-76c-6.7 0-10.5 7.8-6.3 13l112 141.9a8 8 0 0012.6 0l112-141.9c4.1-5.2.4-13-6.3-13z"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+`;

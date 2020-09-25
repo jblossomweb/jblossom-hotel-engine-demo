@@ -24,7 +24,7 @@ export const selectRepos = createSelector(
 
 export const selectLoading = createSelector(
   [(state: AppState): boolean => get(state[rootPath], paths.loading())],
-  (loading) => loading
+  (loading) => !!loading
 );
 
 /*

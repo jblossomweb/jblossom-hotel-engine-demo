@@ -41,7 +41,11 @@ const SearchFilters: React.FC<Props> = ({
       value={filteredLanguages}
       onChange={(newValue) => {
         if (newValue.length > filteredLanguages.length) {
-          addFilteredLanguage(newValue[newValue.length - 1]);
+          newValue.forEach((language) => {
+            if (!filteredLanguages.includes(language)) {
+              addFilteredLanguage(language);
+            }
+          });
         }
       }}
     >

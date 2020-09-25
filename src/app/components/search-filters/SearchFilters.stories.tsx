@@ -31,22 +31,30 @@ const story = (knobProps: Props) => (
   />
 );
 
-export const stories: Stories = {
+export const makeStories: (injectActions?: Partial<Props>) => Stories = (
+  injectActions
+) => ({
   sample: story({
     ...sampleProps,
+    ...injectActions,
   }),
   loading: story({
     ...sampleProps,
+    ...injectActions,
     loading: true,
   }),
   filter: story({
     ...sampleProps,
+    ...injectActions,
     filteredLanguages: ['TypeScript'],
   }),
   filters: story({
     ...sampleProps,
+    ...injectActions,
     filteredLanguages: ['TypeScript', 'JavaScript'],
   }),
-};
+});
+
+export const stories: Stories = makeStories();
 
 storyBuilder(stories, 'components/search-filters');

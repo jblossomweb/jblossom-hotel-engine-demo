@@ -1,5 +1,4 @@
 import { AxiosInstance } from 'axios';
-import { console } from 'window-or-global';
 
 import {
   GithubServiceInterface,
@@ -20,7 +19,7 @@ class GithubService implements GithubServiceInterface {
     this.axios = axios;
   }
 
-  private getRequest = (endpoint: string, params?: object) =>
+  public getRequest = (endpoint: string, params?: object) =>
     this.axios.get(this.base + endpoint, {
       params,
       headers: {
@@ -34,10 +33,8 @@ class GithubService implements GithubServiceInterface {
     const endpoint = `user`;
     try {
       const { data }: UserResponse = await this.getRequest(endpoint);
-      console.log(data);
       return data;
     } catch (error) {
-      console.error(error);
       return Promise.reject(error);
     }
   };

@@ -121,7 +121,7 @@ export const selectFilteredLanguages = createSelector(
 
 export const selectLoading = createSelector(
   [(state: AppState): boolean => get(state[rootPath], paths.loading())],
-  (loading) => loading
+  (loading) => !!loading
 );
 
 /*
@@ -129,6 +129,9 @@ export const selectLoading = createSelector(
  */
 
 export const selectError = createSelector(
-  [(state: AppState): Error | ApiError => get(state[rootPath], paths.error())],
+  [
+    (state: AppState): Error | ApiError | undefined =>
+      get(state[rootPath], paths.error()),
+  ],
   (error) => error
 );

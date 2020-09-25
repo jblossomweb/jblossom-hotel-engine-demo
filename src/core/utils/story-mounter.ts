@@ -6,7 +6,7 @@ export interface MountedStory {
   wrapper: ReactWrapper;
   component: ReactWrapper;
   props: any;
-  elements: { [key: string]: ReactWrapper };
+  elements: { [key: string]: ReactWrapper<any> };
 }
 
 const storyMounter = (

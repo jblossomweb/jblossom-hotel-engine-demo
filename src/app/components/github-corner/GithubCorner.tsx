@@ -26,8 +26,8 @@ const GithubCorner: React.FC<Props> = ({ href, fillColor, textColor }) => (
           height="80"
           viewBox="0 0 250 250"
           style={{
-            fill: fillColor || palette.BLUE,
-            color: textColor || palette.WHITE,
+            fill: fillColor?.length ? fillColor : palette.BLUE,
+            color: textColor?.length ? textColor : palette.WHITE,
             position: 'absolute',
             top: 0,
             border: 0,
