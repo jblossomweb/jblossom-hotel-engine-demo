@@ -1,9 +1,3 @@
-/* eslint-disable import/no-cycle */
-/*
- * Note: I disabled eslint's circular dependency detection here.
- * Webpack appears to resolve it at build time.
- * In the future, I may consider changing this pattern.
- */
 import { Dispatch, AnyAction } from 'redux';
 import { Repository } from '../../types';
 import {
@@ -17,6 +11,7 @@ import * as middleware from './middleware';
 /*
  * FETCH_REPOSITORY
  */
+
 export const fetchRepository: (
   service: GithubServiceInterface
 ) => (
@@ -24,7 +19,15 @@ export const fetchRepository: (
 ) => (fullName: string) => ReposActions['FETCH_REPOSITORY'] = (service) => (
   dispatch
 ) => (fullName) => {
-  middleware.fetchRepository(service)(dispatch)(fullName);
+  middleware.fetchRepository({
+    service,
+    dispatch,
+    actions: {
+      // hoisted. see below
+      success: fetchRepositorySuccess,
+      error: fetchRepositoryError,
+    },
+  })(fullName);
   return {
     type: 'FETCH_REPOSITORY',
   };

@@ -23,9 +23,7 @@ describe('store/search/actions', () => {
     const serviced = actions.fetchRepository(mockService);
     const creator = serviced(mockDispatch);
 
-    beforeEach(() => {
-      jest.clearAllMocks();
-    });
+    beforeEach(jest.clearAllMocks);
 
     it('should call fetchRepository middleware', () => {
       expect(spyMiddleware.fetchRepository).not.toHaveBeenCalled();
@@ -36,7 +34,15 @@ describe('store/search/actions', () => {
     it('should inject service into middleware', () => {
       expect(spyMiddleware.fetchRepository).not.toHaveBeenCalled();
       creator('foo');
-      expect(spyMiddleware.fetchRepository).toHaveBeenCalledWith(mockService);
+      const params = spyMiddleware.fetchRepository.mock.calls[0][0];
+      expect(params.service).toEqual(mockService);
+    });
+
+    it('should inject dispatch into middleware', () => {
+      expect(spyMiddleware.fetchRepository).not.toHaveBeenCalled();
+      creator('foo');
+      const params = spyMiddleware.fetchRepository.mock.calls[0][0];
+      expect(params.dispatch).toEqual(mockDispatch);
     });
 
     it('should return FETCH_REPOSITORY action type', () => {

@@ -29,9 +29,7 @@ describe('store/search/actions', () => {
     const serviced = actions.fetchSearch(mockService);
     const creator = serviced(mockDispatch);
 
-    beforeEach(() => {
-      jest.clearAllMocks();
-    });
+    beforeEach(jest.clearAllMocks);
 
     it('should call fetchSearch middleware', () => {
       expect(spyMiddleware.fetchSearch).not.toHaveBeenCalled();
@@ -42,7 +40,15 @@ describe('store/search/actions', () => {
     it('should inject service into middleware', () => {
       expect(spyMiddleware.fetchSearch).not.toHaveBeenCalled();
       creator(request);
-      expect(spyMiddleware.fetchSearch).toHaveBeenCalledWith(mockService);
+      const params = spyMiddleware.fetchSearch.mock.calls[0][0];
+      expect(params.service).toEqual(mockService);
+    });
+
+    it('should inject dispatch into middleware', () => {
+      expect(spyMiddleware.fetchSearch).not.toHaveBeenCalled();
+      creator(request);
+      const params = spyMiddleware.fetchSearch.mock.calls[0][0];
+      expect(params.dispatch).toEqual(mockDispatch);
     });
 
     it('should return FETCH_SEARCH action type', () => {

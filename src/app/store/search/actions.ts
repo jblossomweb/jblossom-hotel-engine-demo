@@ -1,9 +1,3 @@
-/* eslint-disable import/no-cycle */
-/*
- * Note: I disabled eslint's circular dependency detection here.
- * Webpack appears to resolve it at build time.
- * In the future, I may consider changing this pattern.
- */
 import { Dispatch, AnyAction } from 'redux';
 import { Repository } from '../../types';
 import {
@@ -26,7 +20,15 @@ export const fetchSearch: (
 ) => (request: SearchRequest) => SearchActions['FETCH_SEARCH'] = (service) => (
   dispatch
 ) => (request) => {
-  middleware.fetchSearch(service)(dispatch)(request);
+  middleware.fetchSearch({
+    service,
+    dispatch,
+    actions: {
+      // hoisted. see below
+      success: fetchSearchSuccess,
+      error: fetchSearchError,
+    },
+  })(request);
   return {
     type: 'FETCH_SEARCH',
     payload: {
